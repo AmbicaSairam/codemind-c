@@ -9,9 +9,9 @@ int main()
     }
     else if(x%4==0)
     {
-       printf("%d",x/4);
+        printf("%d",x/4);
     }
-    else 
+    else
     {
         printf("%d",(x/4)+1);
     }
