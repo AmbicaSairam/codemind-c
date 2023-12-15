@@ -8,14 +8,12 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    int sum=0,c=0;
+    float sum=0;
     for(i=0;i<n;i++)
     {
-        c++;
-        if(c%2==1)
-        {
+       
            sum=sum+arr[i];
-        }
+        
     }
-    printf("%d",sum);
+    printf("%.2f",sum/n);
 }
